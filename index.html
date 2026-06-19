@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas Industrial Systems — Industrial Equipment Specialists</title>
+
+<link rel="icon" type="image/png" href="Atlas-icon.png">
+<link rel="apple-touch-icon" href="Atlas-icon.png">
+<meta name="theme-color" content="#0B1120">
+
+<meta name="description" content="Atlas Industrial Systems supplies world-class industrial equipment across South Africa. MEWPs, material lifts, scissor lifts and more — made to order.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Atlas Industrial Systems — Industrial Equipment Specialists">
+<meta property="og:description" content="CE certified MEWPs, scissor lifts and material handling equipment. Made to order, delivered nationwide across South Africa.">
+<meta property="og:image" content="https://yourdomain.co.za/Atlas-logo.png">
+<meta property="og:url" content="https://yourdomain.co.za">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="site-config.js" defer></script>
+<script src="utils.js" defer></script>
+<script src="footer.js" defer></script>
+<script src="navigation.js" defer></script>
+<script src="render-home.js" defer></script>
+<script src="render-products.js" defer></script>
+<script src="render-guide.js" defer></script>
+<script src="render-certs.js" defer></script>
+<script src="render-contact.js" defer></script>
+<script src="main.js" defer></script>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════
+     NAV
+     ══════════════════════════════════════════════════════════════ -->
+<nav>
+  <a class="nav-logo" onclick="show('home')">
+    <img class="nav-logo-img" src="Atlas-logo.png" alt="Atlas Industrial Systems" decoding="async"
+         onerror="this.style.display='none';document.getElementById('nav-text-logo').style.display='block'">
+    <span class="nav-logo-text" id="nav-text-logo">ATLAS<span>.</span></span>
+  </a>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#" class="active" onclick="show('home');return false">Home</a></li>
+    <li><a href="#" onclick="show('products');return false">Products</a></li>
+    <li><a href="#" onclick="show('offers');return false">Offering</a></li>
+    <li><a href="#" onclick="show('certs');return false">Certifications</a></li>
+    <li><a href="#" onclick="show('contact');return false">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a class="btn btn-ghost btn-sm" onclick="show('guide')"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-orange btn-sm" onclick="show('contact')"><i class="ti ti-file-invoice"></i> Enquire Now</a>
+  </div>
+
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile drawer -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#" onclick="show('home');closeMenu();return false"><i class="ti ti-home"></i> Home</a>
+  <a href="#" onclick="show('products');closeMenu();return false"><i class="ti ti-stack-2"></i> Products</a>
+  <a href="#" onclick="show('offers');closeMenu();return false"><i class="ti ti-building-factory-2"></i> Offering</a>
+  <a href="#" onclick="show('certs');closeMenu();return false"><i class="ti ti-certificate"></i> Certifications</a>
+  <a href="#" onclick="show('contact');closeMenu();return false"><i class="ti ti-mail"></i> Contact</a>
+  <div class="mobile-menu-ctas">
+    <a class="btn btn-navy" onclick="show('contact');closeMenu()"><i class="ti ti-file-invoice"></i> Submit Enquiry</a>
+    <a class="btn btn-ghost" onclick="show('guide');closeMenu()"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-ghost" onclick="show('products');closeMenu()"><i class="ti ti-stack-2"></i> Browse Products</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     HOME
+     ══════════════════════════════════════════════════════════════ -->
+<div id="section-home" class="section active">
+  <div class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-wash"></div>
+    <div class="hero-triangle">
+      <img src="Atlas-logo.png" alt="" decoding="async"
+           style="width:100%;height:100%;object-fit:contain;opacity:0.12;filter:invert(1) brightness(2);">
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow" id="hero-eyebrow"></div>
+      <h1 id="hero-h1"></h1>
+      <p class="hero-sub" id="hero-sub"></p>
+      <div class="hero-actions">
+        <a class="btn btn-orange" onclick="show('contact')"><i class="ti ti-file-invoice"></i> Submit Enquiry</a>
+        <a class="btn btn-ghost" onclick="show('products')"><i class="ti ti-file-download"></i> View Products</a>
+      </div>
+      <div class="hero-trust" id="hero-trust"></div>
+    </div>
+  </div>
+
+  <div class="stats-bar" id="stats-bar"></div>
+
+  <div class="wrap">
+    <div class="sec-head">What We <em>Supply</em></div>
+    <p class="sec-sub">Our current range focuses on elevated access and material handling — with more categories being added. All units  made to order.</p>
+    <div class="cat-grid" id="home-cat-grid"></div>
+
+    <div class="how-grid">
+      <div>
+        <div style="font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text);margin-bottom:10px;">How It Works</div>
+        <div style="font-family:var(--font-d);font-size:20px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:10px;">Browse → Specify / Enquire → Order → Receive</div>
+        <p style="font-size:14px;color:var(--text-muted);line-height:1.75;">Browse Featured Models and Download the Full Catalogue, Then Submit an Enquiry With Your Required Specs. We Manufacture to Order and Deliver Nationwide.</p>
+      </div>
+      <div class="how-steps">
+        <div class="how-step"><div class="how-num">1</div><div class="how-step-text"><strong>Browse</strong> — Explore Featured Models and Download the Full Catalogue</div></div>
+        <div class="how-step"><div class="how-num">2</div><div class="how-step-text"><strong>Specify / Enquire</strong> — Note the Model and Requirements, Then Submit via Form or WhatsApp</div></div>
+        <div class="how-step"><div class="how-num">3</div><div class="how-step-text"><strong>Order</strong> — We Manufacture to Your Exact Specs, 8–14 Weeks Lead Time</div></div>
+        <div class="how-step"><div class="how-num orange">4</div><div class="how-step-text"><strong>Receive</strong> — Certified and Delivered Nationwide</div></div>
+      </div>
+    </div>
+
+    <div class="sec-head" style="font-size:32px;">Why <em>Atlas?</em></div>
+    <p class="sec-sub" style="margin-bottom:1.6rem;">Purpose-built, fully certified, committed to South Africa.</p>
+    <div class="why-grid">
+      <div class="why-card"><i class="ti ti-settings-2 why-icon"></i><div class="why-title">Made to Order</div><p class="why-desc">Every Machine Purpose-Built to Your Exact Specification.</p></div>
+      <div class="why-card"><i class="ti ti-shield-check why-icon"></i><div class="why-title">SANS / OHS</div><p class="why-desc">Meets South African National Standards and OHS Act Requirements.</p></div>
+      <div class="why-card"><i class="ti ti-zoom-check why-icon"></i><div class="why-title">CE Certified</div><p class="why-desc">European Certification for Structural and Electrical Safety Compliance.</p></div>
+      <div class="why-card"><i class="ti ti-truck-delivery why-icon"></i><div class="why-title">Nationwide</div><p class="why-desc">Delivered Across All 9 Provinces.</p></div>
+      <div class="why-card"><i class="ti ti-certificate why-icon"></i><div class="why-title">Fully Certified</div><p class="why-desc">ISO 9001:2015, CE Certified, EN 280/SANS 16368 — Full Documentation Available.</p></div>
+      <div class="why-card"><i class="ti ti-building-factory-2 why-icon"></i><div class="why-title">Growing Range</div><p class="why-desc">MEWPs are our First Line. More Industrial Categories Being Added.</p></div>
+    </div>
+  </div>
+    <div id="guide-prompt-home"></div>
+  <footer><div class="footer-inner" id="footer-home"></div></footer>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     PRODUCTS
+     ══════════════════════════════════════════════════════ -->
+<div id="section-products" class="section">
+  <div class="wrap">
+    <div class="sec-head">Product <em>Range</em></div>
+    <p class="sec-sub">Click any category to expand the full model table and specifications. All units are made to order — contact us with your requirements.</p>
+
+    <div style="background:var(--navy);border-radius:var(--r);padding:14px 20px;margin-bottom:1rem;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+      <div>
+        <h3 style="font-family:var(--font-d);font-size:22px;font-weight:800;text-transform:uppercase;color:#fff;margin-bottom:4px;">ATLAS Full Product Catalogue</h3>
+        <p style="font-size:13px;color:rgba(255,255,255,.8);">40+ models across 11 categories — complete technical specifications, dimensions, safety features and configurations.</p>
+      </div>
+      <a class="btn btn-orange" id="catalogue-download-btn" href="#" download><i class="ti ti-file-download"></i> Download PDF</a>
+    </div>
+
+    <div class="cat-index" id="cat-index"></div>
+
+    <div class="acc-list" id="acc-list"></div>
+
+    <div id="comparison-section" style="margin-top: 3.5rem;"></div>
+  </div>
+    <div id="guide-prompt-products"></div>
+  <footer><div class="footer-inner" id="footer-products"></div></footer>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     SELECTION GUIDE
+     ══════════════════════════════════════════════════════════════ -->
+<div id="section-guide" class="section">
+  <div class="wrap">
+    <div class="sec-head">Selection <em>Guide</em></div>
+    <p class="sec-sub">Work through your requirements and the guide will narrow the product range to suitable models.</p>
+    <div id="selection-guide"></div>
+
+  </div>
+  <footer><div class="footer-inner" id="footer-guide"></div></footer>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     OFFERING
+     ══════════════════════════════════════════════════════ -->
+<div id="section-offers" class="section">
+  <div class="wrap">
+    <div class="sec-head">Our <em>Offering</em></div>
+    <p class="sec-sub">Atlas Industrial Systems serves both individual buyers and large businesses. Our offering is structured around how you buy.</p>
+    <div class="offers-grid">
+      <div class="offer-card b2b">
+        <span class="tag tag-navy">B2B</span>
+        <div class="offer-title">Business</div>
+        <p class="offer-desc">For contractors, plant hire companies, industrial operators and businesses procuring multiple units or placing recurring orders.</p>
+        <ul class="offer-list">
+          <li><span class="arr-n">→</span> Volume pricing on fleet orders (5+ units)</li>
+          <li><span class="arr-n">→</span> Priority lead times on repeat orders</li>
+          <li><span class="arr-n">→</span> Operator training and certification support</li>
+          <li><span class="arr-n">→</span> Service and maintenance agreements</li>
+          <li><span class="arr-n">→</span> Custom livery and colour schemes</li>
+        </ul>
+        <a class="btn btn-navy" onclick="show('contact')"><i class="ti ti-building-factory-2"></i> Fleet Enquiry</a>
+      </div>
+      <div class="offer-card b2c">
+        <span class="tag tag-orange">Individual / Single Unit</span>
+        <div class="offer-title">Direct Purchase</div>
+        <p class="offer-desc">For sole traders, small contractors, property managers and first-time buyers looking for a single quality machine.</p>
+        <ul class="offer-list">
+          <li><span class="arr-o">→</span> Guidance on specification selection</li>
+          <li><span class="arr-o">→</span> Transparent make-to-order process </li>
+          <li><span class="arr-o">→</span> Pre-delivery inspection</li>
+          <li><span class="arr-o">→</span> Delivery throughout South Africa</li>
+          <li><span class="arr-o">→</span> 1-year manufacturer warranty on all units</li>
+          <li><span class="arr-o">→</span> Full certification documentation available</li>
+        </ul>
+        <a class="btn btn-outline-orange" onclick="show('contact')"><i class="ti ti-shopping-cart"></i> Submit Enquiry</a>
+      </div>
+    </div>
+  </div>
+  <footer><div class="footer-inner" id="footer-offers"></div></footer>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     CERTIFICATIONS
+     ══════════════════════════════════════════════════════════════ -->
+<div id="section-certs" class="section">
+  <div class="wrap">
+    <div class="sec-head">Certifications & <em>Compliance</em></div>
+    <p class="sec-sub">Every Atlas machine is designed, manufactured, tested and documented to meet the highest international and South African safety and quality standards.</p>
+    <div class="cert-grid" id="cert-grid"></div>
+    <div class="divider"></div>
+    <div class="alert-box">
+      <h3>Documentation on Request</h3>
+      <p>Full test reports, conformity declarations, operator manuals and CE documentation provided with every unit as standard. Additional copies or import compliance documentation available for fleet orders.</p>
+      <a class="btn btn-navy" onclick="show('contact')"><i class="ti ti-file-download"></i> Request Documentation</a>
+    </div>
+  </div>
+  <footer><div class="footer-inner" id="footer-certs"></div></footer>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     CONTACT / ENQUIRY
+     ══════════════════════════════════════════════════════ -->
+<div id="section-contact" class="section">
+  <div class="wrap">
+    <div class="sec-head">Submit an <em>Enquiry</em></div>
+    <p class="sec-sub" id="contact-sub"></p>
+    <div class="contact-wrap">
+      <div id="contact-left"></div>
+      <div class="cform">
+        <div class="cform-title">Enquiry Form</div>
+        <form id="enquiry-form" method="POST">
+          <div class="frow-2">
+            <div><label class="flbl">First Name *</label><input class="finput" type="text" name="firstName" placeholder="John" required></div>
+            <div><label class="flbl">Last Name *</label><input class="finput" type="text" name="lastName" placeholder="Smith" required></div>
+          </div>
+          <div class="frow"><label class="flbl">Company <span style="opacity:.5">(optional)</span></label><input class="finput" type="text" name="company" placeholder="Your company name"></div>
+          <div class="frow-2">
+            <div><label class="flbl">Email Address *</label><input class="finput" type="email" name="email" placeholder="you@company.co.za" required></div>
+            <div><label class="flbl">Phone / WhatsApp *</label><input class="finput" type="tel" name="phone" placeholder="+27 82 000 0000" required></div>
+          </div>
+          <div class="frow"><label class="flbl">Enquiry Type</label><select class="fselect" name="enquiryType" id="enquiry-select"></select></div>
+          <div class="frow"><label class="flbl">Product Category <span style="opacity:.5">(optional)</span></label><select class="fselect" id="product-category" onchange="updateProductModels()"><option value="">— Select a category —</option></select></div>
+          <div class="frow"><label class="flbl">Model of Interest <span style="opacity:.5">(optional)</span></label><select class="fselect" id="product-models" name="product"><option value="">— Select a model —</option></select></div>
+          <div class="frow"><label class="flbl">Message & Specifications *</label><textarea class="ftarea" name="message" placeholder="Describe your requirements — working height, capacity, environment, quantity, delivery location…" required></textarea></div>
+          <input type="text" name="_gotcha" style="display:none">
+          <button class="fsubmit" type="submit" id="form-submit-btn"><i class="ti ti-send"></i> Submit Enquiry</button>
+          <div class="form-msg" id="form-success"><i class="ti ti-circle-check" style="font-size:18px;"></i> Enquiry sent! We'll respond within 1 business day.</div>
+          <div class="form-msg" id="form-error"  ><i class="ti ti-alert-circle" style="font-size:18px;"></i> Something went wrong. Please email us directly or try WhatsApp.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer><div class="footer-inner" id="footer-contact"></div></footer>
+</div>
+
+</body>
+</html>

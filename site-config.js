@@ -30,7 +30,7 @@ const SITE_CONFIG = {
         whatsappDisplay: "+27 (0)84 391 8732"
       }
     ],
-    email:        "sales@atlasindustrialsystems.co.za",
+    email:        "sales@atlasindustrial.systems",
     // address: "Pretoria, Gauteng, South Africa", // Uncomment to show an address
     hoursWeekday: "Mon–Fri: 07:30 – 17:00",
     hoursSat:     "Saturday: 08:00 – 12:00",
@@ -50,8 +50,8 @@ const SITE_CONFIG = {
 
   hero: {
     eyebrow: "South Africa's Industrial Equipment Specialists", 
-    line1:   "Precision Equipment.",
-    line2:   "Delivered.",
+    line1:   "Elevated Access.",
+    line2:   "Anywhere.",
     sub:     "Atlas Industrial Systems supplies world-class lifting and access equipment across South Africa — made to order.",
   },
 

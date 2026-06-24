@@ -415,9 +415,9 @@ nav {
 .guide-field:last-child { border-bottom:none; }
 .guide-field > label { display:block; font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--text-faint); margin-bottom:10px; }
 .guide-choice-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
-.guide-choice { cursor:pointer; display:block; }
+.guide-choice { cursor:pointer; display:block; height:100%; }
 .guide-choice input { position:absolute; opacity:0; pointer-events:none; }
-.guide-choice span { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px; padding:14px 8px; background:rgba(255,255,255,.035); border:1px solid var(--border); border-radius:var(--r); transition:all .2s; text-align:center; min-height:80px; }
+.guide-choice span { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px; padding:14px 8px; background:rgba(255,255,255,.035); border:1px solid var(--border); border-radius:var(--r); transition:all .2s; text-align:center; min-height:80px; height:100%; }
 .guide-choice i { color:var(--orange); font-size:22px; line-height:1; }
 .guide-choice strong { font-family:var(--font-d); font-size:12px; line-height:1.2; font-weight:800; text-transform:uppercase; color:var(--text); }
 .guide-choice small { display:none; }
@@ -439,7 +439,7 @@ nav {
 .guide-specs strong { display:block; font-family:var(--font-d); font-size:18px; line-height:1; color:var(--text); letter-spacing:0; text-transform:none; margin-bottom:3px; }
 .guide-card-actions { display:flex; gap:8px; flex-wrap:wrap; }
 .guide-empty { text-align:center; padding:38px 24px; color:var(--text-muted); }
-.guide-empty i { font-size:38px; color:var(--orange); margin-bottom:10px; }
+.guide-empty i > { font-size:38px; color:var(--orange); margin-bottom:10px; }
 .guide-empty h4 { font-family:var(--font-d); font-size:22px; font-weight:900; text-transform:uppercase; color:var(--text); margin-bottom:6px; }
 .guide-empty p { max-width:420px; margin:0 auto 18px; font-size:13px; line-height:1.7; }
 

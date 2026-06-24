@@ -347,7 +347,7 @@ nav {
   .acc-code-box .code-lbl { font-size:16px; }
   .acc-title-area { padding:10px 12px; }
   .acc-title-main { font-size:15px; }
-  .acc-price { display:none; }
+  /* .acc-price { display:none; } */
   .acc-table-side { padding:14px; }
   .prod-table th, .prod-table td { padding:5px 7px; font-size:11px; }
 }

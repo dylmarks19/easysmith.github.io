@@ -6,7 +6,7 @@ const SITE_CONFIG = {
     tagline:     "Industrial Equipment Specialists",
     legalSuffix: "(Pty) Ltd",
     yearFounded: 2026,
-    // vatNumber: ""  // Uncomment and fill in when VAT registered
+    // vatNumber: ""  
   },
 
   contact: {
@@ -31,7 +31,7 @@ const SITE_CONFIG = {
       }
     ],
     email:        "sales@atlasindustrial.systems",
-    // address: "Pretoria, Gauteng, South Africa", // Uncomment to show an address
+    // address: "Pretoria, Gauteng, South Africa", //
     hoursWeekday: "Mon–Fri: 07:30 – 17:00",
     hoursSat:     "Saturday: 08:00 – 12:00",
     responseTime: "Response within 1 business day",
@@ -43,7 +43,7 @@ const SITE_CONFIG = {
     fleet:    "Priority scheduling available",
   },
 
-  formspreeId: "xlgvzdvo",
+  formspreeId: "xrewprpb",
 
   cataloguePdf: "HYNEE_catalogue.pdf",
   cataloguePdfLabel: "ATLAS Industrial Systems — Full Product Catalogue",

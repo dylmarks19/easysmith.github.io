@@ -1,8 +1,5 @@
-## Thank you so much for visiting our site! We are currently giving it some TLC. In the meantime, please reach out to us at:
-
-sales@atlasindistrial.systems
-
-We will get back to you ASAP!
+## Thank you so much for visiting our site!
+We are currently giving the website some TLC. In the meantime, please reach out to us at: sales@atlasindistrial.systems. We will get back to you ASAP!
 
 <!--
 **dylmarks19/dylmarks19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

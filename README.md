@@ -1,5 +1,5 @@
-## Thank you so much for visiting our site!
-We are currently giving the website some TLC. In the meantime, please reach out to us at: ## sales@atlasindustrial.systems
+## Thank you so much for visiting our site! We are currently giving the website some TLC. In the meantime, please reach out to us at:
+## sales@atlasindustrial.systems
 ## We will get back to you ASAP!
 
 <!--

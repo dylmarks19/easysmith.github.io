@@ -4,7 +4,7 @@ function footerHTML() {
   return `
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="fl"><img src="Easysmith-logo-raised.png" alt="Easysmith" style="height:45px; width:auto; vertical-align:middle;"></div>
+        <div class="fl"><img src="Easysmith-logo.png" alt="Easysmith" style="height:45px; width:auto; vertical-align:middle;"></div>
         <div class="ft">${C.company.name} ${C.company.legalSuffix}</div>
         <p>South Africa's industrial equipment specialists. Made to order, delivered nationwide.</p>
       </div>

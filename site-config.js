@@ -28,7 +28,7 @@ const SITE_CONFIG = {
     // address: "Pretoria, Gauteng, South Africa", // Uncomment to show an address
     hoursWeekday: "Mon–Fri: 07:30 – 17:00",
     hoursSat:     "Saturday: 08:00 – 12:00",
-    responseTime: "Response within 1 business day",
+    responseTime: "Response within 2 business days",
   },
 
   leadTimes: {
@@ -44,8 +44,8 @@ const SITE_CONFIG = {
 
   hero: {
     eyebrow: "South Africa's Industrial Equipment Specialists", 
-    line1:   "Precision Equipment.",
-    line2:   "Delivered.",
+    line1:   "Elevated Access.",
+    line2:   "Anywhere.",
     sub:     "Easysmith supplies world-class lifting and access equipment across South Africa — made to order.",
   },
 

@@ -24,7 +24,7 @@ const SITE_CONFIG = {
         whatsappDisplay: "+27 (0)84 391 8732"
       }
     ],
-    email:        "info@easysmith.co",
+    email:        "dylan@easysmith.co",
     // address: "Pretoria, Gauteng, South Africa", // Uncomment to show an address
     hoursWeekday: "Mon–Fri: 07:30 – 17:00",
     hoursSat:     "Saturday: 08:00 – 12:00",

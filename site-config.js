@@ -44,8 +44,8 @@ const SITE_CONFIG = {
 
   hero: {
     eyebrow: "South Africa's Industrial Equipment Specialists", 
-    line1:   "Precision Equipment.",
-    line2:   "Delivered.",
+    line1:   "ELEVATED ACCESS.",
+    line2:   "ANYWHERE.",
     sub:     "Easysmith supplies world-class lifting and access equipment across South Africa — made to order.",
   },
 

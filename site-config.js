@@ -19,16 +19,16 @@ const SITE_CONFIG = {
       // },
       {
         label: "Dylan",
-        display: "+27 (0) 84 391 8732",
+        display: "+27 84 391 8732",
         whatsapp: "27843918732",
         whatsappDisplay: "+27 (0)84 391 8732"
       }
     ],
-    email:        "dylan@easysmith.co",
+    email:        "info@easysmith.co",
     // address: "Pretoria, Gauteng, South Africa", // Uncomment to show an address
     hoursWeekday: "Mon–Fri: 07:30 – 17:00",
     hoursSat:     "Saturday: 08:00 – 12:00",
-    responseTime: "Response within 2 business days",
+    responseTime: "Response within 1 business day",
   },
 
   leadTimes: {
@@ -44,8 +44,8 @@ const SITE_CONFIG = {
 
   hero: {
     eyebrow: "South Africa's Industrial Equipment Specialists", 
-    line1:   "Elevated Access.",
-    line2:   "Anywhere.",
+    line1:   "Precision Equipment.",
+    line2:   "Delivered.",
     sub:     "Easysmith supplies world-class lifting and access equipment across South Africa — made to order.",
   },
 

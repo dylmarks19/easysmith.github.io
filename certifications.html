@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Certifications & Compliance | Easysmith</title>
 
-<link rel="icon" type="image/png" href="easysmith-icon-2.png">
-<link rel="apple-touch-icon" href="easysmith-icon-2.png">
+<link rel="icon" type="image/png" href="./easysmith-icon-2.png" sizes="32x32">
+<link rel="shortcut icon" type="image/png" href="./easysmith-icon-2.png">
+<link rel="apple-touch-icon" href="./easysmith-icon-2.png">
 <meta name="theme-color" content="#0B1120">
 
 <meta name="description" content="Every Easysmith machine is CE certified and SANS/OHS Act compliant. ISO 9001:2015 quality management, full documentation supplied with every unit.">
@@ -45,10 +46,12 @@
 <link rel="stylesheet" href="styles.css">
 
 <script>window.PRODUCT_LINES = [];</script>
-<script src="product-line-compact-mewps.js" defer></script>
-<!-- <script src="product-line-<next-line>.js" defer></script> -->
 <script src="site-config.js" defer></script>
 <script src="utils.js" defer></script>
+<script src="product-line-compact-mewps.js" defer></script>
+<script src="product-line-laser-cleaners.js" defer></script>
+<script src="product-line-laser-welding.js" defer></script>
+<!-- <script src="product-line-<next-line>.js" defer></script> -->
 <script src="footer.js" defer></script>
 <script src="navigation.js" defer></script>
 <script src="render-certs.js" defer></script>
@@ -102,7 +105,7 @@
   <div class="alert-box">
     <h3>Documentation on Request</h3>
     <p>Full test reports, conformity declarations, operator manuals and CE documentation provided with every unit as standard. Additional copies or import compliance documentation available for fleet orders.</p>
-    <a class="btn btn-navy" href="contact.html"><i class="ti ti-file-download"></i> Request Documentation</a>
+    <button class="btn btn-navy" type="button" onclick="requestDocumentation()"><i class="ti ti-file-download"></i> Request Documentation</button>
   </div>
 </div>
 

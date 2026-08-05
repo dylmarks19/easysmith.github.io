@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Easysmith — Industrial Equipment Supplier | South Africa</title>
+
+<link rel="icon" type="image/png" href="./easysmith-icon-2.png" sizes="32x32">
+<link rel="shortcut icon" type="image/png" href="./easysmith-icon-2.png">
+<link rel="apple-touch-icon" href="./easysmith-icon-2.png">
+<meta name="theme-color" content="#0B1120">
+
+<meta name="description" content="Easysmith supplies CE certified MEWPs, scissor lifts and material handling equipment across South Africa — made to order, delivered nationwide.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Easysmith">
+<meta property="og:locale" content="en_ZA">
+<meta property="og:title" content="Easysmith — Industrial Equipment Supplier | South Africa">
+<meta property="og:description" content="Easysmith supplies CE certified MEWPs, scissor lifts and material handling equipment across South Africa — made to order, delivered nationwide.">
+<meta property="og:image" content="https://easysmith.co/easysmith-logo-2.png">
+<meta property="og:url" content="https://easysmith.co/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Easysmith — Industrial Equipment Supplier | South Africa">
+<meta name="twitter:description" content="Easysmith supplies CE certified MEWPs, scissor lifts and material handling equipment across South Africa — made to order, delivered nationwide.">
+<meta name="twitter:image" content="https://easysmith.co/easysmith-logo-2.png">
+
+<link rel="canonical" href="https://easysmith.co/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Easysmith (Pty) Ltd",
+  "url": "https://easysmith.co",
+  "logo": "https://easysmith.co/easysmith-logo-2.png",
+  "email": "info@easysmith.co",
+  "telephone": "+27843918732",
+  "areaServed": "ZA",
+  "description": "Easysmith supplies world-class industrial equipment across South Africa, including compact MEWPs, scissor lifts, and material handling equipment — made to order."
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- PRODUCT_LINES registry: each product-line-*.js below pushes itself onto
+     this array as it loads. To add a new product line, drop in a new
+     product-line-<name>.js file (copy an existing one as a template) and
+     add ONE script tag for it here. -->
+<script>window.PRODUCT_LINES = [];</script>
+<script src="site-config.js" defer></script>
+<script src="utils.js" defer></script>
+<script src="product-line-compact-mewps.js" defer></script>
+<script src="product-line-laser-cleaners.js" defer></script>
+<script src="product-line-laser-welding.js" defer></script>
+<!-- <script src="product-line-<next-line>.js" defer></script> -->
+<script src="footer.js" defer></script>
+<script src="navigation.js" defer></script>
+<script src="render-home.js" defer></script>
+<script src="main.js" defer></script>
+</head>
+<body data-page="home">
+
+<nav>
+  <a class="nav-logo" href="index.html">
+    <img class="nav-logo-img" src="easysmith-logo-2.png" alt="Easysmith" decoding="async"
+         onerror="this.style.display='none';document.getElementById('nav-text-logo').style.display='block'">
+    <span class="nav-logo-text" id="nav-text-logo">EASYSMITH<span>.</span></span>
+  </a>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="offering.html">Offering</a></li>
+    <li><a href="certifications.html">Certifications</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a class="btn btn-ghost btn-sm" href="guide.html"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-orange btn-sm" href="contact.html"><i class="ti ti-file-invoice"></i> Enquire Now</a>
+  </div>
+
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html"><i class="ti ti-home"></i> Home</a>
+  <a href="products.html"><i class="ti ti-stack-2"></i> Products</a>
+  <a href="offering.html"><i class="ti ti-building-factory-2"></i> Offering</a>
+  <a href="certifications.html"><i class="ti ti-certificate"></i> Certifications</a>
+  <a href="contact.html"><i class="ti ti-mail"></i> Contact</a>
+  <div class="mobile-menu-ctas">
+    <a class="btn btn-navy" href="contact.html"><i class="ti ti-file-invoice"></i> Submit Enquiry</a>
+    <a class="btn btn-ghost" href="guide.html"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-ghost" href="products.html"><i class="ti ti-stack-2"></i> Browse Products</a>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-wash"></div>
+  <div class="hero-triangle">
+    <img src="easysmith-logo-2.png" alt="" decoding="async"
+         style="width:100%;height:100%;object-fit:contain;opacity:0.12;filter:invert(1) brightness(2);">
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow" id="hero-eyebrow"></div>
+    <h1 id="hero-h1"></h1>
+    <p class="hero-sub" id="hero-sub"></p>
+    <div class="hero-actions">
+      <a class="btn btn-orange" href="contact.html"><i class="ti ti-file-invoice"></i> Submit Enquiry</a>
+      <a class="btn btn-ghost" href="products.html"><i class="ti ti-file-download"></i> View Products</a>
+    </div>
+    <div class="hero-trust" id="hero-trust"></div>
+  </div>
+</div>
+
+<div class="stats-bar" id="stats-bar"></div>
+
+<div class="wrap">
+  <div class="sec-head">What We <em>Supply</em></div>
+  <p class="sec-sub">Our current range focuses on elevated access and material handling — with more categories being added. All units  made to order.</p>
+  <div id="home-lines"></div>
+
+  <div class="how-grid">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text);margin-bottom:10px;">How It Works</div>
+      <div style="font-family:var(--font-d);font-size:20px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:10px;">Browse → Specify / Enquire → Order → Receive</div>
+      <p style="font-size:14px;color:var(--text-muted);line-height:1.75;">Browse Featured Models and Download the Full Catalogue, Then Submit an Enquiry With Your Required Specs. We Manufacture to Order and Deliver Nationwide.</p>
+    </div>
+    <div class="how-steps">
+      <div class="how-step"><div class="how-num">1</div><div class="how-step-text"><strong>Browse</strong> — Explore featured models and download the full catalogue</div></div>
+      <div class="how-step"><div class="how-num">2</div><div class="how-step-text"><strong>Specify / Enquire</strong> — Note the model and requirements, then submit via form or WhatsApp</div></div>
+      <div class="how-step"><div class="how-num">3</div><div class="how-step-text"><strong>Order</strong> — We manufacture to your exact specs.</div></div>
+      <div class="how-step"><div class="how-num orange">4</div><div class="how-step-text"><strong>Receive</strong> — Certified and delivered nationwide</div></div>
+    </div>
+  </div>
+
+  <div class="sec-head" style="font-size:32px;">Why <em>Easysmith?</em></div>
+  <p class="sec-sub" style="margin-bottom:1.6rem;">Purpose-built, fully certified, committed to South Africa.</p>
+  <div class="why-grid">
+    <div class="why-card"><i class="ti ti-settings-2 why-icon"></i><div class="why-title">Made to Order</div><p class="why-desc">Every Machine Purpose-Built to Your Exact Specification.</p></div>
+    <div class="why-card"><i class="ti ti-shield-check why-icon"></i><div class="why-title">SANS / OHS</div><p class="why-desc">Meets South African National Standards and OHS Act Requirements.</p></div>
+    <div class="why-card"><i class="ti ti-zoom-check why-icon"></i><div class="why-title">CE Certified</div><p class="why-desc">European Certification for Structural and Electrical Safety Compliance.</p></div>
+    <div class="why-card"><i class="ti ti-truck-delivery why-icon"></i><div class="why-title">Nationwide Delivery</div><p class="why-desc">Delivered Across All 9 Provinces.</p></div>
+    <div class="why-card"><i class="ti ti-certificate why-icon"></i><div class="why-title">Fully Certified Products</div><p class="why-desc">ISO 9001:2015, CE Certified, EN 280/SANS 16368 — Full Documentation Available.</p></div>
+    <div class="why-card"><i class="ti ti-building-factory-2 why-icon"></i><div class="why-title">Growing Range</div><p class="why-desc">More Industrial Categories Being Added All The Time.</p></div>
+  </div>
+</div>
+<div id="guide-prompt-home"></div>
+
+<footer><div class="footer-inner" id="footer"></div></footer>
+
+</body>
+</html>

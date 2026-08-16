@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certifications & Compliance | Easysmith</title>
+
+<link rel="icon" type="image/png" href="./easysmith-icon-2.png" sizes="32x32">
+<link rel="shortcut icon" type="image/png" href="./easysmith-icon-2.png">
+<link rel="apple-touch-icon" href="./easysmith-icon-2.png">
+<meta name="theme-color" content="#0B1120">
+
+<meta name="description" content="Every Easysmith machine is CE certified and SANS/OHS Act compliant. ISO 9001:2015 quality management, full documentation supplied with every unit.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Easysmith">
+<meta property="og:locale" content="en_ZA">
+<meta property="og:title" content="Certifications & Compliance | Easysmith">
+<meta property="og:description" content="Every Easysmith machine is CE certified and SANS/OHS Act compliant. ISO 9001:2015 quality management, full documentation supplied with every unit.">
+<meta property="og:image" content="https://easysmith.co/easysmith-logo-2.png">
+<meta property="og:url" content="https://easysmith.co/certifications.html">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Certifications & Compliance | Easysmith">
+<meta name="twitter:description" content="Every Easysmith machine is CE certified and SANS/OHS Act compliant. ISO 9001:2015 quality management, full documentation supplied with every unit.">
+<meta name="twitter:image" content="https://easysmith.co/easysmith-logo-2.png">
+
+<link rel="canonical" href="https://easysmith.co/certifications.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Easysmith (Pty) Ltd",
+  "url": "https://easysmith.co",
+  "logo": "https://easysmith.co/easysmith-logo-2.png",
+  "email": "info@easysmith.co",
+  "telephone": "+27843918732",
+  "areaServed": "ZA",
+  "description": "Easysmith supplies world-class industrial equipment across South Africa, including compact MEWPs, laser cleaning systems and laser welding machines — made to order."
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<script>window.PRODUCT_LINES = [];</script>
+<script src="site-config.js" defer></script>
+<script src="utils.js" defer></script>
+<script src="product-line-compact-mewps.js" defer></script>
+<script src="product-line-laser-cleaners.js" defer></script>
+<script src="product-line-laser-welding.js" defer></script>
+<!-- <script src="product-line-<next-line>.js" defer></script> -->
+<script src="footer.js" defer></script>
+<script src="navigation.js" defer></script>
+<script src="render-certs.js" defer></script>
+<script src="main.js" defer></script>
+</head>
+<body data-page="certifications">
+
+<nav>
+  <a class="nav-logo" href="index.html">
+    <img class="nav-logo-img" src="easysmith-logo-2.png" alt="Easysmith" decoding="async"
+         onerror="this.style.display='none';document.getElementById('nav-text-logo').style.display='block'">
+    <span class="nav-logo-text" id="nav-text-logo">EASYSMITH<span>.</span></span>
+  </a>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="offering.html">Offering</a></li>
+    <li><a href="certifications.html" class="active">Certifications</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a class="btn btn-ghost btn-sm" href="guide.html"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-orange btn-sm" href="contact.html"><i class="ti ti-file-invoice"></i> Enquire Now</a>
+  </div>
+
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html"><i class="ti ti-home"></i> Home</a>
+  <a href="products.html"><i class="ti ti-stack-2"></i> Products</a>
+  <a href="offering.html"><i class="ti ti-building-factory-2"></i> Offering</a>
+  <a href="certifications.html"><i class="ti ti-certificate"></i> Certifications</a>
+  <a href="contact.html"><i class="ti ti-mail"></i> Contact</a>
+  <div class="mobile-menu-ctas">
+    <a class="btn btn-navy" href="contact.html"><i class="ti ti-file-invoice"></i> Submit Enquiry</a>
+    <a class="btn btn-ghost" href="guide.html"><i class="ti ti-help-circle"></i> Selection Guide</a>
+    <a class="btn btn-ghost" href="products.html"><i class="ti ti-stack-2"></i> Browse Products</a>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="sec-head">Certifications & <em>Compliance</em></div>
+  <p class="sec-sub">Every Easysmith machine is designed, manufactured, tested and documented to meet the highest international and South African safety and quality standards.</p>
+  <div id="cert-sections"></div>
+  <div class="divider"></div>
+  <div class="alert-box">
+    <h3>Documentation on Request</h3>
+    <p>Full test reports, conformity declarations, operator manuals and CE documentation provided with every unit as standard. Additional copies or import compliance documentation available for fleet orders.</p>
+    <button class="btn btn-navy" type="button" onclick="requestDocumentation()"><i class="ti ti-file-download"></i> Request Documentation</button>
+  </div>
+</div>
+
+<footer><div class="footer-inner" id="footer"></div></footer>
+
+</body>
+</html>

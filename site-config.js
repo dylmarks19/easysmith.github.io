@@ -40,7 +40,7 @@ const SITE_CONFIG = {
   formspreeId: "xbdvqpyn",
   analyticsMeasurementId: "",
 
-  cataloguePdf: "easysmith_catalogue.pdf",
+  cataloguePdf: "Easysmith_Full_Product_Catalogue.pdf",
   cataloguePdfLabel: "Easysmith — Full Product Catalogue",
 
   hero: {

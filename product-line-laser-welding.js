@@ -76,7 +76,7 @@ const LASER_WELDING_CATEGORIES = [
   },
   {
     id: "laser-welding-robotic",
-    images: ["LWR.png", "LWR.2.png", "LWR.mp4", "LWR.2.mp4", "LWP.3.mp4"],
+    images: ["LWR.png", "LWR.2.png", "LWR.mp4", "LWR.2.mp4", "LWR.3.mp4"],
     icon: "ti-robot",
     code: "LWR",
     price: 0, // POA — engineered-to-order, priced per project

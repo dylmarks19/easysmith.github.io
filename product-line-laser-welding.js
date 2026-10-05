@@ -12,7 +12,7 @@
 const LASER_WELDING_CATEGORIES = [
   {
     id: "laser-welding-portable",
-    images: ["LWP.png", "LWP.2.png", "LWP.mp4"],
+    images: ["LWP.png", "LWP.2.png", "LWP.mp4", "LWP.2.mp4", "LWP.3.mp4"],
     icon: "ti-bolt",
     code: "LWP",
     price: 92000, // LWP-3, lowest-priced model in this category
@@ -34,7 +34,7 @@ const LASER_WELDING_CATEGORIES = [
   },
   {
     id: "laser-welding-standard",
-    images: ["LWS.png", "LWS.2.png", "LWS.mp4"],
+    images: ["LWS.png", "LWS.2.png", "LWS.mp4", "LWS.2.mp4", "LWS.3.mp4"],
     icon: "ti-flame",
     code: "LWS",
     price: 104000, // LWS-1500, lowest-priced model in this category
@@ -55,7 +55,7 @@ const LASER_WELDING_CATEGORIES = [
   },
   {
     id: "laser-welding-professional",
-    images: ["LWM.png", "LWM.2.png", "LWM.mp4"],
+    images: ["LWM.png", "LWM.2.png", "LWM.mp4", "LWM.2.mp4", "LWM.3.mp4"],
     icon: "ti-tool",
     code: "LWM",
     price: 128000, // LWM-1500, lowest-priced model in this category
@@ -76,7 +76,7 @@ const LASER_WELDING_CATEGORIES = [
   },
   {
     id: "laser-welding-robotic",
-    images: ["LWR.png", "LWR.2.png", "LWR.mp4"],
+    images: ["LWR.png", "LWR.2.png", "LWR.mp4", "LWR.2.mp4", "LWP.3.mp4"],
     icon: "ti-robot",
     code: "LWR",
     price: 0, // POA — engineered-to-order, priced per project

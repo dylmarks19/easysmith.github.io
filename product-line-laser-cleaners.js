@@ -11,7 +11,7 @@
 const LASER_CLEANERS_CATEGORIES = [
   {
     id: "laser-cw",
-    images: ["LCC.png", "LCC.2.png","LCC.mp4"],
+    images: ["LCC.png", "LCC.2.png", "LCC.mp4", "LCC.2.mp4", "LCC.3.mp4"],
     icon: "ti-sparkles",
     code: "LCC",
     price: 139000, // LCC-1500, lowest-priced model with confirmed pricing
@@ -34,7 +34,7 @@ const LASER_CLEANERS_CATEGORIES = [
   },
   {
     id: "laser-pulsed",
-    images: ["LCP.png", "LCP.2.png","LCP.mp4"],
+    images: ["LCP.png", "LCP.2.png", "LCP.mp4", "LCP.2.mp4", "LCP.3.mp4"],
     icon: "ti-bucket",
     code: "LCP",
     price: 174000, // LCP-200, lowest-priced model in this category
@@ -56,7 +56,7 @@ const LASER_CLEANERS_CATEGORIES = [
   },
   {
     id: "laser-solutions",
-    images: ["LCS.png", "LCS.2.png","LCS.mp4"],
+    images: ["LCS.png", "LCS.2.png", "LCS.mp4", "LCS.2.mp4", "LCS.3.mp4"],
     icon: "ti-tools",
     code: "LCS",
     price: 0, // POA — engineered-to-order, priced per project

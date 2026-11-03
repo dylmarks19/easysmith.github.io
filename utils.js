@@ -763,6 +763,18 @@ function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
+function extractMaxNumericValue(str) {
+  const re = /(\d+(?:\.\d+)?)\s*([a-zA-Z%°]*)/g;
+  let best = { value: 0, unit: '' };
+  let m;
+  while ((m = re.exec(String(str))) !== null) {
+    const v = parseFloat(m[1]);
+    if (v > best.value) best = { value: v, unit: m[2] || '' };
+  }
+  return best;
+}
+window.extractMaxNumericValue = extractMaxNumericValue;
+
 // ── GLOBAL EXPORTS ───────────────────────────────────────────────────────────
 
 window.guidePromptHTML = guidePromptHTML;

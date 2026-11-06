@@ -58,7 +58,7 @@ const SITE_CONFIG = {
     email:    { id: "AW-18343974099", label: "", value: 1.0, currency: "ZAR" },
   },
 
-  cataloguePdf: "Easysmith_Full_Product_Catalogue.pdf",
+  cataloguePdf: "Easysmith_Full_Product_Catalogue_updated.pdf",
   cataloguePdfLabel: "Easysmith — Full Product Catalogue",
 
   hero: {

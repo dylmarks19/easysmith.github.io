@@ -271,7 +271,7 @@ const PRODUCT_LINE_LASER_CLEANERS = {
   name: "Laser Cleaners",
   tagline: "High-performance laser cleaning systems for surface preparation, paint removal and industrial maintenance — with CE, FDA, ETL and SGS-aligned documentation support.",
   icon: "ti-sparkles",
-  cataloguePdf: "Easysmith_Laser_Cleaners_Brochure.pdf",
+  cataloguePdf: "Easysmith_Laser_Cleaners_Brochure_updated.pdf",
   cataloguePdfLabel: "Laser Cleaners Catalogue",
   leadTimes: {
     standard: "8–10 weeks",

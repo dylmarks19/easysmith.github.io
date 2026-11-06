@@ -312,7 +312,7 @@ const PRODUCT_LINE_LASER_WELDING = {
   name: "Laser Welding Machines",
   tagline: "Handheld and robotic laser welding systems — from portable field repair to fully automated production cells — for automotive, rail, equipment manufacturing and shipbuilding.",
   icon: "ti-bolt",
-  cataloguePdf: "Easysmith_Laser_Welding_Brochure.pdf",
+  cataloguePdf: "Easysmith_Laser_Welding_Brochure_updated.pdf",
   cataloguePdfLabel: "Laser Welding Machines Catalogue",
   leadTimes: {
     standard: "8–10 weeks",

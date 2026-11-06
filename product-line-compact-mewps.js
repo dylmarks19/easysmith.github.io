@@ -346,7 +346,7 @@ const PRODUCT_LINE_COMPACT_MEWPS = {
   name: "Compact MEWPs",
   tagline: "Compact Mobile Elevating Work Platforms (MEWPs) for safe, efficient work at height — aluminium and steel mast lifts, scissor lifts and material handling equipment, all made to order and CE certified.",
   icon: "ti-stairs-up",
-  cataloguePdf: "Easysmith_MEWPs_Brochure.pdf",
+  cataloguePdf: "Easysmith_MEWPs_Brochure_updated.pdf",
   cataloguePdfLabel: "Compact MEWPs Catalogue",
   leadTimes: {
     standard: "8–10 weeks",
